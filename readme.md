@@ -1,10 +1,12 @@
 # Task auto-pool-task Backend Description
 
+- you can add 4 refferel under a user. if you try to add more then 4 user then API will give you an error message. Let's Explore --
+
 ## Technology used
 
 - Node.js , Express.js, Mongoose, MongoDB
 
-# Check Code
+# Prerequisite
 
 - install node_modules (npm i)
 
