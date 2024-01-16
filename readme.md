@@ -4,6 +4,16 @@
 
 - Node.js , Express.js, Mongoose, MongoDB
 
+# Check Code
+
+- install node_modules (npm i)
+
+- create .env file in ./ and set Database url like --
+
+  ```
+  db_url= "Database link here"
+  ```
+
 # API's
 
 - http://localhost:5000/api/v1/user (GET)
