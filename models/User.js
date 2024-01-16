@@ -5,10 +5,9 @@ let userSchema = new Schema({
   userName: {
     type: String,
   },
-  ref: {
-    type: String,
-  },
+  referrals: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
 });
 
 let User = mongoose.model("user", userSchema);
+
 module.exports = User;
