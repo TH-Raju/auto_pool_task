@@ -2,6 +2,12 @@
 
 - you can add 4 refferel under a user. if you try to add more then 4 user then API will give you an error message. Let's Explore --
 
+# Deploy Link -- https://3-m489l71yy-th-raju.vercel.app/
+
+- https://3-m489l71yy-th-raju.vercel.app/api/v1/user (GET)
+- https://3-m489l71yy-th-raju.vercel.app/api/v1/user/root (POST)
+- https://3-m489l71yy-th-raju.vercel.app/api/v1/user/register (Post)
+
 ## Technology used
 
 - Node.js , Express.js, Mongoose, MongoDB
